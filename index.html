@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <style>
+      body {
+        min-height: 100vh;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+      }
+      .page {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+      img {
+        width: 300px;
+        margin: 20px;
+      }
+      @media (max-width: 750px) {
+        img {
+          width: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="./bottle-popup/index.html">
+        <div class="page">
+          <img src="./bottle-opener.png" alt="bottle opener" />
+          <span>Bottle Opener</span>
+        </div>
+      </a>
+      <a href="./bottle-selector/index.html">
+        <div class="page">
+          <img src="./bottle-selector.png" alt="bottle selector" />
+          <span>Bottle Selector</span>
+        </div>
+      </a>
+    </div>
+  </body>
+</html>
