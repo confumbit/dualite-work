@@ -11,6 +11,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
+app.get('/popup', (req, res) => {
+  res.sendFile(path.join(__dirname, 'popup.html'));
+});
+app.get('/selector', (req, res) => {
+  res.sendFile(path.join(__dirname, 'selector.html'));
+});
 
 // Start the server
 app.listen(port, () => {
