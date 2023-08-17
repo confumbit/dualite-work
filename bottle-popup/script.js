@@ -53,7 +53,7 @@ function animation() {
   content.style.animationIterationCount = `1`;
   setTimeout(() => {
     bottle.style.animation = `moveup 0.5s linear`;
-    bottle.setAttribute("src", "./images/bottle.png");
+    bottle.setAttribute("src", "./Images/bottle.png");
     bottle.style.animationIterationCount = `1`;
   }, 100);
 
@@ -67,9 +67,9 @@ function animation() {
     // mainContainer.style.opacity = `0`;
     mainContainer.style.animation = `changetobg2 0.5s ease`;
     setTimeout(() => {
-      bottle.setAttribute("src", "./images/bottle-open.png");
+      bottle.setAttribute("src", "./Images/bottle-open.png");
       bottle.style.top = `40%`;
-      mainContainer.style.background = `url('./images/bg-img2.png') #D91567`;
+      mainContainer.style.background = `url('./Images/bg-img2.png') #D91567`;
       content.innerHTML = `<h1>Celebrate the World Cup with a Kombucha!</h1>`;
       content.style.animation = `none`;
       content.style.display = `flex`;
@@ -81,11 +81,11 @@ function animation() {
         content.innerHTML = `<h1>Get 20% off everytime your favorite team wins any WC knock-out matches!</h1>
             <div class="copy-container">
       <div class="code">PELE-10</div>
-      <img src="./images/copy.png" alt="copy" class="copy-code" />
+      <img src="./Images/copy.png" alt="copy" class="copy-code" />
     </div>
             `;
         bottle.style.top = `45%`;
-        bottle.setAttribute("src", "./images/bottle.png");
+        bottle.setAttribute("src", "./Images/bottle.png");
         bottle1.style.opacity = `1`;
         bottle2.style.opacity = `1`;
         setTimeout(() => {
